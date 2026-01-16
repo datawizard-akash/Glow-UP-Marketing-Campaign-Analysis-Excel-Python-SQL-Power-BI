@@ -1,0 +1,2 @@
+# Glow-UP-Marketing-Campaign-Analysis-Excel-Python-SQL-Power-BI
+GlowUp is a beauty and skincare startup that recently ran multiple online and offline marketing campaigns. The company spent a significant budget on social media ads, influencer collaborations, and local events. Management wants to understand which campaigns delivered the best return on investment (ROI) and how to allocate marketing budget.
