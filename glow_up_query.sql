@@ -2,14 +2,14 @@ select * from campaign
 
 -- Campaign Spend: Total money spent per campaign.
 
-select channel, round(sum(spend)::numeric,2)
+select channel, round(sum(spend)::numeric,2) as total_spent
 from campaign
 group by 1
 order by 2 desc
 
 -- Leads Generated: Number of potential customers acquired.
 
-select channel, sum(leads_generated)
+select channel, sum(leads_generated) as total_leads_generated
 from campaign
 group by 1
 order by 2 desc;
@@ -51,3 +51,4 @@ order by 2 desc;
 select channel, round(sum(clicks)) as total_clicks, round(sum(impressions)) as total_impressions
 from campaign
 group by 1 
+
